@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+
+    <style>
+        .myForm {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid #ddd;
+            background-color: lightgray;
+            padding: 1%;
+            width: 400px;
+            font-size: 0.8em;
+            box-sizing: border-box;
+        }
+
+        .myForm legend,
+        label {
+            padding: 0;
+            font-weight: bold;
+        }
+
+        .myForm input,
+        select,
+        textarea {
+            display: block;
+            border: 1px solid #ccc;
+            width: 100%;
+            font-size: 0.9em;
+            padding: 0.3em;
+        }
+
+        .myForm button {
+            padding: 1em;
+            border-radius: 0.5em;
+            background: #eee;
+            border: none;
+            font-weight: bold;
+            margin-top: 1em;
+        }
+
+        .myForm button:hover {
+            background-color: limegreen;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="myForm" action="/">
+        <p>
+            <label>Name <input type="text" name="customer_name"></label>
+        </p>
+        <p>
+            <label>Phone <input type="tel" name="customer_phone"></label>
+        </p>
+        <p>
+            <label>Email <input type="email" name="customer_email"></label>
+        </p>
+        <p>
+            <label>DOB <input type="datetime-local" name="customer_dob"></label>
+        </p>
+        <p>
+            <label>Address</label>
+            <textarea name="customer_address"></textarea>
+        </p>
+        <p>
+            <label>Country</label>
+            <select id="country_select">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="England">England</option>
+            </select>
+        </p>
+
+        <p>
+            <legend>Gender</legend>
+        <p><input type="radio" name="gender"> Male</p>
+        <p><input type="radio" name="gender"> Female</p>
+        </p>
+        <p>
+            <legend>Services</legend>
+        <p><input type="checkbox" name="services"> IT</p>
+        <p><input type="checkbox" name="services"> Finance</p>
+        <p><input type="checkbox" name="services"> Logistics</p>
+        </p>
+
+        <p><button type="submit">Submit</button></p>
+    </form>
+</body>
+
+</html>
