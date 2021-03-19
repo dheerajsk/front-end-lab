@@ -10,7 +10,6 @@ Employee.prototype.calculateAge = function calculateAge () {
     console.log("age of " + this.name + "=" + (2021 - this.year));
 }
 
-
 console.log(Employee.prototype);
 
 let emp1 = new Employee("Alex", "Tester", 1995);
