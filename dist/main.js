@@ -1,0 +1,1 @@
+(()=>{var r={801:r=>{r.exports={sum:function(r,t){return r+t},multiply:function(r,t){return r*t}}}},t={};function o(n){var e=t[n];if(void 0!==e)return e.exports;var u=t[n]={exports:{}};return r[n](u,u.exports,o),u.exports}(()=>{const r=o(801);console.log("Result: "+r.multiply(10,20))})()})();

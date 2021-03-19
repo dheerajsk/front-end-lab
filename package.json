@@ -1,0 +1,27 @@
+{
+  "name": "front-end-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajsk/front-end-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajsk/front-end-lab/issues"
+  },
+  "homepage": "https://github.com/dheerajsk/front-end-lab#readme",
+  "dependencies": {
+    "webpack": "^5.26.3",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
