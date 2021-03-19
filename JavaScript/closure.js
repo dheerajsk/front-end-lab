@@ -8,6 +8,7 @@ const empId = (function () {
     }
 })();
 
+console.log(empId);
 console.log("Alex: " + empId());
 console.log("Annie: " + empId());
 console.log("John: " + empId());
